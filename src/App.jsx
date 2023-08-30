@@ -29,7 +29,7 @@ function App() {
         </form>
       </div>
       <Tabela resultado={resultado}/>
-      <Resultado resultado={resultado}/>
+      <Resultado resultado={Number(resultado).toFixed(1)}/>
     </>
   )
 }
