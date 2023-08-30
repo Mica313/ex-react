@@ -1,0 +1,54 @@
+.table {
+    max-width: 600px;
+    width: 100%;
+    margin-top: 24px;
+}
+
+tbody td {
+    padding: 8px 20px;
+    border-bottom: 1px solid #dee2e7;
+}
+
+.header th{
+    background-color: rgb(42, 230, 230);;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: normal;
+}
+
+.textCenter {
+    text-align: center;
+    color: #fff;
+}
+
+.tableTitle {
+    color: rgb(42, 230, 230);
+}
+
+.tableText {
+    color: #fff;
+}
+
+.resultadoNormal {
+    background-color: rgba(102, 194, 81, 0.89);
+}
+.resultadoM{
+    background-color: rgb(255, 230, 0);
+}
+.resultadoSB{
+    background-color:orange;
+}
+.resultadoOB{
+    background-color: rgb(221, 4, 4);
+}
+.resultadoGrave{
+    background-color: rgb(99, 5, 5);
+}
+
+@media screen and (max-width: 360px) {
+    .table {
+        width: 200px;
+    }
+}
